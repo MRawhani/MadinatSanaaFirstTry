@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://fonts.googleapis.com/earlyaccess/notokufiarabic.css?family=notokufiarabic:100,300,400,700,900"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+ 
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>مدينة صنعاء | مستلزمات أعراس</title>
+    	
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+
+<body>
+       
+    <header class="portfolio-header">
+      
+
+        <div class="portfolio-header__content">
+            <div class="portfolio-header__content--logo-box">
+                <picture>
+                    <source srcset="img/portfolio-logo-big.png" media="(min-width: 920px)">
+                    <img src="img/portfolio-logo.png" alt="شعار مدينة صنعاء" class="portfolio-header__content--logo-box--logo">
+                </picture>
+                <h1>مديــنـة صـنـعـاء</h1>
+            </div>
+            <div class="header__content__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--sub">معرض منتجات مدينتنا </span>
+                </h1>
+            </div>
+        </div>
+
+        <svg style="pointer-events: none" class="wave" width="100%" height="50px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+            <defs>
+                <style>
+                    .a {
+                        fill: none;
+                    }
+
+                    .b {
+                        clip-path: url(#a);
+                    }
+
+                    .c,
+                    .d {
+                        fill: #f9f9fc;
+                    }
+
+                    .d {
+                        opacity: 0.5;
+                        isolation: isolate;
+                    }
+                </style>
+                <clipPath id="a">
+                    <rect class="a" width="1920" height="75"></rect>
+                </clipPath>
+            </defs>
+            <title>wave</title>
+            <g class="b">
+                <path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path>
+            </g>
+            <g class="b">
+                <path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path>
+            </g>
+            <g class="b">
+                <path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path>
+            </g>
+            <g class="b">
+                <path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path>
+            </g>
+        </svg>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <div class="u-center-text">
+                <h2 class="heading-secondary u-margin-bottom-big u-margin-top-huge  ">
+                    مدينتنا هي المكان الأمثل لإحياء عرسك
+                </h2>
+            </div>
+           <div class="portfolio__images">
+                 <!-- Control buttons -->
+            <div class="row u-center-text btns" id="myBtnContainer">
+                    <button class="btn-filter heading-tertiary active" onclick="filterSelection('all')"> الكل</button>
+                    <button class="btn-filter heading-tertiary" onclick="filterSelection('lohfa')"> بير العزب </button>
+                    <button class="btn-filter heading-tertiary" onclick="filterSelection('tents')">خيام </button>
+                    <button class="btn-filter heading-tertiary" onclick="filterSelection('tayar')"> محازق</button>
+                    <button class="btn-filter heading-tertiary" onclick="filterSelection('sayah')"> أجواخ وصايات</button>
+                    <button class="btn-filter heading-tertiary" onclick="filterSelection('sale')"> بيع</button>
+                </div>
+    
+                <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+                <div class="row col-no-margin row--no-padding u-center-text">
+                    <div class=" col-1-of-4 w-5 filterDiv lohfa"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv sale "><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv lohfa"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv sale"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv lohfa tayar"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv tayar"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv tents"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv tayar"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv lohfa"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv tents"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                    <div class=" col-1-of-4 w-5 filterDiv lohfa"><img src="img//portfolio/tents/tent.jpg" class="image-filter" alt="مدينة صنعاء| "></div>
+                </div>
+    
+           </div>
+
+        </section>
+        <section class="section-book">
+               
+    
+                <div class="row  u-margin-top-huge row--equal-height-at-large">
+                    <div class="col-1-of-3 col-margin-small col-padding-small">
+                        <div class="book__form u-center-text">
+                            <div class="u-margin-bottom-small">
+                                <h2 class="heading-secondary heading-secondary--small">
+                                    كن صديقنا في التواصل
+                                </h2>
+                            </div>
+    
+                            <div class="row">
+                                <ul class="social-list">
+                                    <li><a target="_blank" href="https://api.whatsapp.com/send?phone=967775600067"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube "></i></a> </li>
+                                </ul>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="col-1-of-3 col-margin-small col-padding-small">
+                        <div class="book__form u-center-text">
+                            <div class="u-margin-bottom-small">
+                                <h2 class="heading-secondary heading-secondary--small">
+                                    اطلع دائما على جديدنا
+                                </h2>
+                            </div>
+                            <div>
+    
+                                <div class="form__group">
+                                    <input type="email" class="form__input form__input--small" placeholder="ايميلك" id="email">
+                                    <input type="button" class="btn btn--yellow btn--small" value="إشترك" >
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="col-1-of-3 col-margin-small col-padding-small">
+                        <div class="book__form u-center-text">
+                            <div class="u-margin-bottom-small">
+                                <h2 class="heading-secondary heading-secondary--small">
+                                    اتصل على الرقم الموحد
+                                </h2>
+                            </div>
+                            <div class="u-margin-bottom-small">
+                                    <a href="#" class="btn-text btn-text--black"> <h3 class="heading-tertiary ">00967-771111201</h3></a>
+                               
+                            </div>
+                            <div class="u-margin-bottom-small">
+                                <h3 class="heading-tertiary ">أو  &nbsp;   <a href="index.html#contact" target="_blank" class="btn btn--yellow btn--small btn--small-width">تواصل بنا!</a></h3>
+                            </div>
+                            <div>
+                               
+                            </div>
+                            
+    
+                        </div>
+                    </div>
+                </div>
+    
+            </section>
+    </main>
+    <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="img/profile-footer.png" alt="مدينة صنعاء - ملبوسات عرسان وخيام أعراس">
+    
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#about" class="footer__link">الشركة</a></li>
+                            <li class="footer__item"><a href="#features" class="footer__link">مميزانتا</a></li>
+                            <li class="footer__item"><a href="portfolio.html" target="_blank" class="footer__link">أعمالنا</a></li>
+                            <li class="footer__item"><a href="#cards" class="footer__link">أسعارنا</a></li>
+                            <li class="footer__item"><a href="#counts" class="footer__link">إحصائياتنا</a></li>
+                            <li class="footer__item"><a href="#contact" class="footer__link">تواصل</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copy-right">
+                        حقوق الطبع محفوظة &copy; <a href="#" class="footer__link">مديــنـة صنعاء</a> 2019.
+                    </p>
+                </div>
+            </div>
+            <!-- Back To Top -->
+            <a href="#" id="back-to-top" class="btn btn--yellow btn__back-to-top btn__back-to-top--hidden " title="home" role="button">
+                    <i class="fa fa-angle-up"></i>
+                </a>
+            <div class="position-relative">
+                    <a href="index.html" target="_blank"> <div class="mobile-menu-wrapper-back u-center-text  ">
+                            <i class="fa fa-angle-up"></i>
+                        </div></a>
+                        
+                    <div class="mobile-menu--wide"><p>الرئيسية</p></div>
+               </div>
+        </footer>
+    <script src="js/Portfolio-5a0ef9e10c.js"></script>
+</body>
+
+</html>
